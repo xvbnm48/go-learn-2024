@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestMain(t *testing.T) {
+func Test(t *testing.T) {
 	t.Run("TestIncrement", TestIncrement)
 	t.Run("TestDecrement", TestDecrement)
 	t.Run("TestConvertToString", TestConvertToString)
