@@ -9,4 +9,10 @@ func main() {
 	default:
 		println("Hello, World!")
 	}
+	switch length := len(nama); length > 5 {
+	case true:
+		println("Nama terlalu panjang")
+	default:
+		println("Nama sudah benar")
+	}
 }
