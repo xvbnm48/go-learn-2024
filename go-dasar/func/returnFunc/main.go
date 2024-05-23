@@ -19,7 +19,18 @@ func Idol(name string) (myName string) {
 	return
 }
 
+// function variadic
+func sumAll(numbers ...int) int {
+	total := 0
+	for _, number := range numbers {
+		total += number
+	}
+	return total
+}
+
 func main() {
+	arrayFunc := sumAll(10, 10, 10, 10, 10)
+	println(arrayFunc)
 	MyIdol := Idol("Hira Dazzle")
 	println(MyIdol)
 	result := pertambahan(10, 10)
