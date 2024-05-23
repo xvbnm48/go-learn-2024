@@ -9,3 +9,6 @@ namun defer akan selalu di eksekusi walaupun terjadi error di function yang di e
 # panic
 
 Panic adalah function yang dapat digunakan untuk memberhentikan eksekusi program. Panic biasanya digunakan untuk menghentikan eksekusi program ketika terjadi error yang tidak bisa diatasi, dan defer akan tetap di panggil.
+
+# recover 
+recover ini tuh function yang bisa digunakan untuk menangkap data panic, jadi dengan recover ini proses panic akan terhenti, dan program tetep jalan
