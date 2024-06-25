@@ -31,6 +31,9 @@ func runAppYangBenar(error bool) {
 func main() {
 	//runApp(true)
 	//runApp(false)
-	runAppYangBenar(true)
-	fmt.Println("vini cantik")
+	if runAppYangBenar(false); recover() != nil {
+		fmt.Println("ada panic, tapi tetap jalan karena ada recover")
+	} else {
+		fmt.Println("tidak ada panic")
+	}
 }

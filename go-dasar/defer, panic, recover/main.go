@@ -6,6 +6,8 @@ import "fmt"
 func logging() {
 	fmt.Println("selesai memanggil function ")
 }
+
+// defer adalah function yang akan dipanggil di akhir
 func runApp() {
 	defer logging()
 	fmt.Println("run the app")
