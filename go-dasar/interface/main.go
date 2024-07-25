@@ -28,7 +28,6 @@ func (p Person) GetName() string {
 
 func (i Idol) GetName() string {
 	return fmt.Sprintf("Name %s \n Social media %s \n Member %v \n", i.Name, i.SocialMedia, i.Member[0])
-
 }
 
 func main() {
